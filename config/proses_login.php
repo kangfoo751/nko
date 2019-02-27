@@ -1,8 +1,16 @@
 <?php  
 SESSION_start();
 include 'koneksi.php';
-$email = $_POST ['email'];
-$pass = ($_POST ['password']);
+
+
+$name     	= $_POST['name'];
+$email     	= $_POST['email'];
+$pass    = $_POST['password'];
+
+
+$sql2 = "insert into member (namembr, emailmbr, passmbr) values ('$name', '$email', '$pass')";
+
+mysqli_query($konek,$sql2);
 
 
 	$sql = "select * from user where email = '$email' AND password = '$pass'";

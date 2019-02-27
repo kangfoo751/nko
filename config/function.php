@@ -50,4 +50,11 @@ function email($id){
 	$data = mysqli_fetch_assoc($result);
 	return $data['emailmbr'];
 }
+function member($id){
+	global $konek;
+	$sql = "SELECT * FROM member WHERE idmbr=$id";
+	$result = mysqli_query($konek, $sql);
+	$data = mysqli_fetch_assoc($result);
+	return $data['namembr'];
+}
 ?>

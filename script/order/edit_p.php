@@ -18,5 +18,5 @@ $result		= mysqli_query($konek, $total);
 
 	$sql = "UPDATE sale SET name = '$name', email = '$email', product = '$product', description = '$desc', date='$date' price='$tot', deadline='$deadline', where id_sale = '$ID'";
 	mysqli_query($konek,$sql);
-	// header('location:../order.php');
+	header('location:../order.php');
 ?>

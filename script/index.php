@@ -233,7 +233,7 @@ if (isset($_SESSION['email'])){
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
-                                            <img src="../assets/images/icon/avatar-01.jpg" alt="Admin" />
+                                            <img src="../assets/images/icon/avatar.png" alt="Admin" />
                                         </div>
                                         <div class="content">
                                             <a class="js-acc-btn" href="#"><?= $_SESSION['name']?></a>
@@ -242,7 +242,7 @@ if (isset($_SESSION['email'])){
                                             <div class="info clearfix">
                                                 <div class="image">
                                                     <a href="#">
-                                                        <img src="../assets/images/icon/avatar-01.jpg" alt="Admin" />
+                                                        <img src="../assets/images/icon/avatar.png" alt="Admin" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
@@ -292,7 +292,7 @@ if (isset($_SESSION['email'])){
                                     </div>
                                     <div class="card-body">
                                         <div class="mx-auto d-block">
-                                            <img class="rounded-circle mx-auto d-block" src="../assets/images/icon/avatar-01.jpg" alt="Card image cap">
+                                            <img class="rounded-circle mx-auto d-block" src="../assets/images/icon/avatar.png" alt="Card image cap">
                                             <h5 class="text-sm-center mt-2 mb-1"><?= $_SESSION['name']?></h5>
                                         </div>
                                         <hr>

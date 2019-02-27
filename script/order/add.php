@@ -89,8 +89,8 @@ if (isset($_SESSION['idmbr'])){
                                 <i class="fas fa-bar-chart-o"></i>Product</a>
                         </li>
                         <li class="active has-sub">
-                            <a class="js-arrow" href="../order.php">
-                                <i class="fas fa-tasks"></i>Order</a>
+                            <a class="js-arrow" href="order.php">
+                                <i class="fas fa-bar-chart-o"></i>Your Order</a>
                         </li>
                     </ul>
                     </ul>
@@ -229,7 +229,7 @@ if (isset($_SESSION['idmbr'])){
                                                 <button type="submit" class="btn btn-primary btn-sm">
                                                 <i class="fa fa-dot-circle-o"></i> Submit
                                                 </button>
-                                                <a href="../stock.php">
+                                                <a href="../product.php">
                                                 <button type="submit" class="btn btn-success btn-sm">Back
                                                 </button>
                                                 </a>

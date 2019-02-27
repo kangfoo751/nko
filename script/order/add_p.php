@@ -1,6 +1,5 @@
 <?php
 include '../../config/koneksi.php';
-include '../config/function.php';
 
 $name     	= $_POST['name'];
 $email     	= $_POST['email'];
@@ -20,5 +19,5 @@ $result		= mysqli_query($konek, $total);
 $sql = "insert into sale (name, email, product, description, date, price, deadline) values ('$name', '$email', '$product', '$desc','$date','$tot', '$deadline')";
 
 mysqli_query($konek,$sql);
-header('location:../order.php');
+header('location:../product.php');
 ?>

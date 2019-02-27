@@ -47,7 +47,7 @@
                             </a>
                         </div>
                         <div class="login-form">
-                            <form action="../config/proses_register.php" method="post">
+                            <form action="../config/proses_login.php" method="post">
                                 <div class="form-group">
                                     <label>Username</label>
                                     <input class="au-input au-input--full" type="text" name="name" placeholder="Username">

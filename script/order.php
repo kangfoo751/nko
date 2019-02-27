@@ -166,10 +166,10 @@ if (isset($_SESSION['idmbr'])){
                                 
                                 <form action="" method="get">
                                 <div class="table-data__tool">
-                                <h3 class="title-5 m-b-35">data table</h3>
+                                <h3 class="title-5 m-b-35">your order</h3>
                                     <div class="table-data__tool-right">
                                             <a href="order/add.php" style="text-decoration: none; color: white;">
-                                        <button class="au-btn au-btn-icon au-btn--green au-btn--small"><i class="zmdi zmdi-plus"></i>add item</a></button>
+                                        <button class="au-btn au-btn-icon au-btn--green au-btn--small"><i class="zmdi zmdi-plus"></i>order item</a></button>
                                     </div>
                                 </div>
                                 </form>
@@ -198,7 +198,6 @@ if (isset($_SESSION['idmbr'])){
                                                 $sql = "SELECT * FROM sale";
                                                 $jawab = mysqli_query($konek, $sql);
                                                 
-
                                                     if(mysqli_num_rows($jawab)>0){
                                                     while($data = mysqli_fetch_assoc($jawab)){
                                                         echo "
@@ -222,7 +221,7 @@ if (isset($_SESSION['idmbr'])){
                                                         </tr>
                                                         ";      
                                                     }
-                                                }
+                                                    }
                                                 
                                                 ?>
                                             </tr>

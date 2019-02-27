@@ -1,6 +1,6 @@
 <?php 
 SESSION_start();
-if (isset($_SESSION['idmbr'])){
+if (isset($_SESSION['namembr'])){
 
 
 ?>
@@ -89,7 +89,7 @@ if (isset($_SESSION['idmbr'])){
                         </li>
                         <li>
                             <a class="js-arrow" href="order.php">
-                                <i class="fas fa-tasks"></i>Order</a>
+                                <i class="fas fa-bar-chart-o"></i>Your Order</a>
                         </li>
                     </ul>
                 </nav>
@@ -181,7 +181,6 @@ if (isset($_SESSION['idmbr'])){
                                                 <th>product</th>
                                                 <th>price</th>
                                                 <th>status</th>
-                                                <th>date</th>
                                             </tr>
                                         </thead>
                                         <tbody>    
@@ -202,7 +201,6 @@ if (isset($_SESSION['idmbr'])){
                                                             <td>".$data['product']."</td>
                                                             <td>"."Rp. ".number_format($data['price'], 2, ",",".")."</td>
                                                             <td>".status($data['status'])."</td>
-                                                            <td>".date('d F Y', strtotime($data['date']))."</td>
                                                         </tr>
                                                         ";      
                                                     }

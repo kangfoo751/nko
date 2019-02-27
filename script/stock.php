@@ -233,7 +233,7 @@ if (isset($_SESSION['email'])){
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
-                                            <img src="../assets/images/icon/avatar-01.jpg" alt="Admin" />
+                                            <img src="../assets/images/icon/avatar.png" alt="Admin" />
                                         </div>
                                         <div class="content">
                                             <a class="js-acc-btn" href="#"><?= $_SESSION['name']?></a>
@@ -242,7 +242,7 @@ if (isset($_SESSION['email'])){
                                             <div class="info clearfix">
                                                 <div class="image">
                                                     <a href="#">
-                                                        <img src="../assets/images/icon/avatar-01.jpg" alt="Admin" />
+                                                        <img src="../assets/images/icon/avatar.png" alt="Admin" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
